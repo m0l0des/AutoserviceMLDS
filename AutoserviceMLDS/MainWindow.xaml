@@ -9,7 +9,8 @@
         Title="Услуги Авто сервиса"
         FontFamily="Arial Black" MinWidth="1200" MinHeight="300" Height="450" Width="800">
     <Grid>
-
+        
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>
             <ColumnDefinition  Width="1*"/>
@@ -36,8 +37,8 @@
                 Content="Выход"
                 Click="ExitButton_Click"/>
         </StackPanel>
-
         <Image Margin="10"   VerticalAlignment="Top" Source="./images/service_logo.png" />
+
 
 
 

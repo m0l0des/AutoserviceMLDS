@@ -38,7 +38,7 @@ namespace AutoserviceMLDS
         {
             get
             {
-                return new Uri(Path.Combine(Environment.CurrentDirectory, MainImagePath ?? ""));
+                return new Uri(Path.Combine(Environment.CurrentDirectory, MainImagePath.Trim()));
             }
         }
         public string CostString
